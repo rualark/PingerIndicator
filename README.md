@@ -2,6 +2,8 @@
 
 Ubuntu indicator applet for monitoring connection to host (Gtk-based).
 
+<img src=https://i.imgur.com/yDZQhqT.png>
+
 # Features
 
 - Pings host two times per second (configurable) no matter how long it takes host to reply (does not flood if host replies fast and does not hang if host does not reply for a long time). As a result, PingerIndicator stays responsive even in slow networks.
