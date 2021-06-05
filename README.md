@@ -7,7 +7,7 @@ Responsive Ubuntu indicator applet for monitoring connection to host (Gtk-based)
 # Features
 
 - Pings host two times per second (configurable) no matter how long it takes host to reply (does not flood if host replies fast and does not hang if host does not reply for a long time). As a result, PingerIndicator stays responsive even in slow networks.
-- If current ping did not get response yet, but is waiting for response is already taking longer than previous ping, the program will immediately change color to more slow. This results in fast reaction to network situation.
+- If current ping did not get response yet, but waiting for response is already taking longer than previous ping, the program will immediately change color to more slow. This results in fast reaction to network situation.
 - Color of indicator changes based on current ping round trip time. Black dot flashes every time ping is received.
 - Dot color changes to white during first minute (configurable) after disconnection was detected.
 - Detects disconnection after 3 ping timeouts (configurable) and take action (e.g. reconnect VPN)
